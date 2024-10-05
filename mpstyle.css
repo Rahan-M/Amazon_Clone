@@ -14,7 +14,12 @@
     height:60px;
     background-color: #000000;
     align-items: center;
+    justify-content: space-between;
 }
+.border:hover{
+    border:1px solid white;
+}
+/* nav part 1 logo */
 .logo{
     background-image: url("Images/amazon_logo.jpg");
     height:50px;
@@ -22,13 +27,34 @@
     background-size: contain;
     background-repeat: no-repeat;
 }
+
+/* Nav Part two the recipient and location */
 .navloc{
     margin-left: 30px;
     padding: 7px 5px 6px 5px;
 }
 .recip{
     margin-left: 15px;
+    color:#cccccc;
 }
-.border:hover{
-    border:1px solid white;
+
+/* Nav Part 3 Search Bar */
+.navsearchbar{
+    display:flex;
+    width:650px;
+    height:40px;
+}
+.navselect{
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border:none;
+}
+.navsearch{
+    width:100%;
+}
+.navsearchbutton{
+    width:50px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    background-color: #ffa500;
 }
