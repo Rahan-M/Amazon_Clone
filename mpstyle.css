@@ -243,6 +243,9 @@ a{
     font-size: 0.85rem;
     color:#dddddd;
 }
+.footpanel2 a:hover{
+    text-decoration: underline;
+}
 .footpanel3{
     border-top: 0.005px white solid;
     padding-top: 10px;
@@ -280,6 +283,9 @@ a{
     display:block;
     font-size: 0.85rem;
     color:#dddddd;
+}
+.footpanel4 a:hover{
+    text-decoration: underline;
 }
 .footpanel5{
     padding-top: 20px;
