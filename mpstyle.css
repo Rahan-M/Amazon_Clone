@@ -114,6 +114,7 @@ span{
     align-items:center;
     color:white;
     justify-content: flex-start;
+    z-index: 2;
 }
 .panelborder{
     border:1px solid black;
@@ -149,7 +150,9 @@ span{
 .gifcta{
     font-size: 1.4rem;
 }
+
 /* Hero page */
+
 .heropage{
     display:flex;
     position: relative;
@@ -159,7 +162,7 @@ span{
     background-size: cover;
     justify-content: center;
     align-items: flex-end;
-    z-index: -1;
+    /* z-index: -1; */
 }
 .heromsg{
     display:flex;
@@ -174,28 +177,68 @@ a{
     text-decoration: none;
     color:#23a6ff;
 }
+/* Shop Section */
 .shopsection{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 500;
-    position: relative;
-    top:100px;
-    height:700px;
+    height:1000px;
     background-color: #dfe5e2;
+    margin-top:100px;
 }
 .greenbg{
     z-index: 0;
     height:200px;
     background-color: #bae0b7;
 }
-.shop1{
+.shop{
     display: flex;
+    flex-wrap: wrap;
     position:relative;
     bottom:150px;
     justify-content: space-evenly;
 }
 .box{
+    padding: 20px 10px 15px 10px;
     background-color: white;
     height:400px;
     width:22.5%;
     border: 0.5px outset;
+    margin-bottom: 20px;
+}
+.boximg{
+    height:300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+/* footer */
+.footpanel1{
+    background-color: #37475a;
+    color:white;
+    height:50px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:100vw;
+}
+.footpanel1:hover{
+    background-color: #37475add;
+}
+.footpanel2{
+    background-color: #232f3e;
+    color:white;
+    height:400px;
+    display:flex;
+    flex-direction: column;
+}
+.footpanel2 p{
+    font-size: 1rem;
+}
+.footpanel2 a{
+    margin-top: 5px;
+    display:block;
+    font-size: 0.85rem;
+    color:white;
 }
